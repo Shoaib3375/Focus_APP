@@ -1,0 +1,50 @@
+.timer-label {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.status-label {
+    -fx-text-fill: #2E7D32;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI Italic", cursive;
+    -fx-font-style: italic;
+}
+
+.primary-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button.delete-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-background-radius: 6;
+    -fx-padding: 4 10;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 3, 0, 0, 1);
+    transition: background-color 0.3s ease;
+}
+
+.button.delete-button:hover {
+    -fx-background-color: #c0392b;
+}
+.list-view .list-cell {
+    -fx-font-size: 18px;   /* Increase font size */
+    -fx-padding: 8 12;     /* Optional: add some padding for better spacing */
+}
+

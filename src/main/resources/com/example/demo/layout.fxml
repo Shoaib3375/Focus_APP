@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo.HelloController" alignment="CENTER" spacing="20">
+    <Label fx:id="timerLabel" text="25:00" style="-fx-font-size: 48px;" />
+    <HBox alignment="CENTER" spacing="10">
+        <Button text="Start" onAction="#startTimer"/>
+        <Button text="Pause" onAction="#pauseTimer"/>
+        <Button text="Reset" onAction="#resetTimer"/>
+    </HBox>
+</VBox>
